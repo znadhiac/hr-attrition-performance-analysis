@@ -39,7 +39,9 @@ This project analyzes the HR Employee Attrition and Performance dataset to ident
 
 ## DATA MODEL OVERVIEW 
 
-The dataset uses a relational model with fact tables (`performance_rating`) and dimension tables (`employee`, `satisfied_level`, `rating_level`, `education_level`) connected via **primary and foreign keys** to support accurate joins and analysis.
+The dataset uses a relational model with fact tables (`performance_rating`) and dimension tables (`employee`, `satisfied_level`, `rating_level`, `education_level`) connected via **primary and foreign keys** to support accurate joins and analysis.  
+
+![HR Attrition Employee Database Schema](schema_diagram.jpg)
 
 ---
 
